@@ -19,6 +19,7 @@ public class Showroom {
 			int counter = 0;
 			while (!exit) {
 				try {
+					System.out.println("My Name is Lakhan");
 					System.out.println("Options 1. Add Vehicle 2.Display all vehicles 5. Purchase a Vehicle 10.Exit");
 					System.out.println("Choose");
 					switch (sc.nextInt()) {
